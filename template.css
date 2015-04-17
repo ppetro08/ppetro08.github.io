@@ -13,6 +13,19 @@ body {
 /* fix bs3 horizontal scrollbar bug */
 .row { margin: 0; padding: 0 }
 
+.center-text {
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+.iphone-circle {
+    width: 140px;
+    height 140px;
+}
+
+#sec1 {
+    background-color: #dbdbdb;
+}
 
 /* use special fonts in certain elements */
 h1,h2,h3,h4,.lead,.btn,.navbar a {
