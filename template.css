@@ -95,10 +95,17 @@ img.grayscale {
     background-color:transparent;
 }
 
+.lnLogo {
+    height: 85px;
+}
+
+.rmLogo {
+    height: 50px;
+}
+
 .featurette {
-    background: #222334;
+    background: #fff;
     padding: 50px 0;
-    color: #ffffff;
 }
 
 .featurette-item > i {
