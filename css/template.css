@@ -63,8 +63,6 @@ img.grayscale {
 
 .header h1 {
     font-size:80px;
-    margin-left:-5px;
-    margin-bottom:5px;
     color: #fff;
     -ms-text-shadow: 1px 1px #808080;
     text-shadow: 1px 1px #808080;
@@ -78,8 +76,12 @@ img.grayscale {
     padding: 10px;
 }
 
+.header .container {
+    margin-top: 10px;
+}
+
 .header {
-    background: lightgray url('Images/uc-blurred.jpg') no-repeat center center fixed;
+    background: lightgray url('/Images/uc-blurred.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -122,25 +124,4 @@ img.grayscale {
 
 footer {
     padding: 100px 0;
-    padding-left: 15% !important;
-    padding-right: 15% !important;
 }
-
-.footer-icon {
-    float: left;
-    font-size: 40px;
-}
-
-.contactInfo {
-    float: left;
-    text-align: right;
-    width: 50%;
-}
-
-.resume {
-    float: right;
-    text-align: center;
-    width: 50%;
-}
-
-/* -- end custom css for Bootstrap 3.x --*/
