@@ -1,5 +1,3 @@
-/* -- custom css for Bootstrap 3.x --*/
-
 /* move special fonts to HTML head for better performance */
 @import url(http://fonts.googleapis.com/css?family=Voltaire);
 
@@ -7,12 +5,15 @@ html,
 body {
     height: 100%;
     width: 100%;
-    font-family:Arial,sans-serif;
+    font-family: Arial,sans-serif;
     background-color: #fff;
 }
 
 /* fix bs3 horizontal scrollbar bug */
-.row { margin: 0; padding: 0 }
+.row {
+    margin: 0;
+    padding: 0;
+}
 
 .projectEulerImg {
     width: 200px;
@@ -33,36 +34,30 @@ body {
 }
 
 /* use special fonts in certain elements */
-h1,h2,h3,h4,.btn,.navbar a {
-    font-family:'Voltaire',Arial,sans-serif;
-    letter-spacing:2px;
+h1, h2, h3, h4, .btn, .navbar a {
+    font-family: 'Voltaire',Arial,sans-serif;
+    letter-spacing: 2px;
 }
 
 h1 {
-    font-size:50px;
+    font-size: 50px;
     margin-bottom: 20px !important;
     margin-top: 20px !important;
 }
 
-/* make images gray */
-img.grayscale {
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
-}
-
 .icon-bar {
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .vert {
     vertical-align: middle;
-    width:100%;
-    padding-top:4%;
-    text-align:center;
+    width: 100%;
+    padding-top: 4%;
+    text-align: center;
 }
 
 .header h1 {
-    font-size:80px;
+    font-size: 80px;
     color: #fff;
     -ms-text-shadow: 1px 1px #808080;
     text-shadow: 1px 1px #808080;
@@ -70,7 +65,7 @@ img.grayscale {
 
 .header .lead {
     color: black;
-    font-size:25px;
+    font-size: 25px;
     background: #ffffff;
     background: rgba(255, 255, 255, 0.4);
     padding: 10px;
@@ -90,12 +85,12 @@ img.grayscale {
 
 .blurb {
     padding: 120px 0;
-    background-color:#e9e9e9;
+    background-color: #e9e9e9;
 }
 
-.blurb .panel {
-    background-color:transparent;
-}
+    .blurb .panel {
+        background-color: transparent;
+    }
 
 .lnLogo {
     height: 85px;
