@@ -120,3 +120,25 @@ h1 {
 footer {
     padding: 100px 0;
 }
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+#technicalWriting .col-md-2 {
+        text-align: right;
+    }
+
+    #technicalWriting .col-md-8 {
+        text-align: left;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #technicalWriting .col-md-2 {
+        text-align: right;
+    }
+
+    #technicalWriting .col-md-8 {
+        text-align: left;
+    }
+}
