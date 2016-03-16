@@ -27,3 +27,27 @@ header .header-content .header-content-inner h1 {
 body {
     overflow-x: hidden;
 }
+
+.experience {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+    .experience div:nth-child(odd) {
+        text-align: center;
+    }
+
+.experienceColumn {
+    margin-bottom: 20px;
+}
+
+.experienceImgColumn {
+    float: right;
+}
+
+@media screen and (min-width: 480px) and (max-width: 994px) {
+    .experienceImgColumn {
+        width: 80%;
+    }
+}
